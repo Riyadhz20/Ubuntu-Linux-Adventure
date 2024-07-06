@@ -53,8 +53,9 @@ sudo nano /etc/xrdp/xrdp.ini
 ### configure ufw
 
 ```md	
-sudo ufw allow from 192.168.100.75/32 to any port 3389
+sudo ufw allow from [IP_LOCAL]/32 to any port 3389
 ```
+> [IP_LOCAL] for the Client device, "in this Step I did The local ip not the public, I hope it's ez XD"
 
 ### Check Changes in ufw
 
